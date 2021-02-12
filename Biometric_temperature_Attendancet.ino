@@ -1,3 +1,24 @@
+/*
+Author: Rahul V 
+github: /rahul23aug
+date: 12/2/2021
+
+Connections:
+
+R307 fingerprint module:
+R307 Pin   Arduino pin
+1 ---------> 5v
+2 ---------> gnd
+3 ---------> 2
+4 ---------> 3
+
+Adafruit MLX90614 breakout board:
+Vin ---------> 5V
+gnd ---------> gnd
+SCL ---------> A5
+SDA ---------> A4
+
+*/
 #include <Wire.h>
 #include <Adafruit_Fingerprint.h>
 #include <Adafruit_MLX90614.h>
