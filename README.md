@@ -7,3 +7,5 @@ Parts:
 mlx90614 breakout board
 Adafruit R307 fingerprint sensor
 Arduino Uno / raspberry pi
+
+NOTE: Install the two libraries from Library manager
